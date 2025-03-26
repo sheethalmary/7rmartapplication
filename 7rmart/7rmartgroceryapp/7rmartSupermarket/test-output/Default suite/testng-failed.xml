@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testscripts.SubcategoryTest">
+        <methods>
+          <include name="verifyUserIsabletoAddNewSubcategoryTest"/>
+          <include name="verifyUserIsabletoupdateTheSubCategoryDetails"/>
+          <include name="verifyUserIsabletoSearchSubcategoryTest"/>
+          <include name="initializeBrowser"/>
+          <include name="driverquit"/>
+          <include name="verifyUserIsabletoDeleteCategory"/>
+        </methods>
+      </class> <!-- testscripts.SubcategoryTest -->
+      <class name="testscripts.Managecontacttest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="driverquit"/>
+          <include name="verifyUserIsAbletoUpdateTheContactDetailsInManage"/>
+        </methods>
+      </class> <!-- testscripts.Managecontacttest -->
+      <class name="testscripts.Categorytest">
+        <methods>
+          <include name="verifyUserIsabletOupdateTheCategoryField"/>
+          <include name="verifyUserIsabletocreateNewCategory"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyUserIsabletOSearchCategoryUsingSearchoption"/>
+          <include name="driverquit"/>
+          <include name="verifyUserIsabletOdeleteTheCategoryField"/>
+        </methods>
+      </class> <!-- testscripts.Categorytest -->
+      <class name="testscripts.Adminusertest">
+        <methods>
+          <include name="verifyUserIsabletocreateNewAdminUser"/>
+          <include name="verifyUserIsabletoupdateTheAdminUser"/>
+          <include name="initializeBrowser"/>
+          <include name="driverquit"/>
+          <include name="verifyUserIsabletosearchAdminUser"/>
+          <include name="verifyUserIsabletoclickDeleteButtonToDeleteTheAdminUser"/>
+        </methods>
+      </class> <!-- testscripts.Adminusertest -->
+      <class name="testscripts.LoginTest">
+        <methods>
+          <include name="verifyWithInValidUserNameAndInValidPassword"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyWithValidUserNameAndInvalidPassword"/>
+          <include name="verifyWithInValidUserNameAndValidPassword"/>
+          <include name="driverquit"/>
+          <include name="verifyUserLoginWithValidCredential"/>
+        </methods>
+      </class> <!-- testscripts.LoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

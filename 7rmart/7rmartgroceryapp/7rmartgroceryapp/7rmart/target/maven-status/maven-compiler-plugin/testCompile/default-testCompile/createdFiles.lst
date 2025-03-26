@@ -1,0 +1,8 @@
+testscripts\Logintest.class
+testscripts\Managecontacttest.class
+testscripts\Adminusertest.class
+listeners\Listener.class
+testscripts\Subcategorytest.class
+automationcore\Base.class
+listeners\RetryListener.class
+retry\Retry.class

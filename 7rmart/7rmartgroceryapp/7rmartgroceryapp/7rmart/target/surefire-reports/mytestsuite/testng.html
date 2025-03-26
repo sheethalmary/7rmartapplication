@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  testng</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testng</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Mar 20 12:08:17 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70658 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testscripts.Adminusertest.verifyUserIsAbleTosearchAdminUser()'><b>verifyUserIsAbleTosearchAdminUser</b><br>Test class: testscripts.Adminusertest</td>
+<td></td>
+<td>1</td>
+<td>testscripts.Adminusertest@2767e23c</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithInValidCredential()'><b>verifyUserLoginWithInValidCredential</b><br>Test class: testscripts.Logintest<br>Parameters: Ethelwin, 123</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithInValidCredential()'><b>verifyUserLoginWithInValidCredential</b><br>Test class: testscripts.Logintest<br>Parameters: Rinson, 789</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Managecontacttest.verifyUserIsAbleToUpdateTheContactDetailsInManage()'><b>verifyUserIsAbleToUpdateTheContactDetailsInManage</b><br>Test class: testscripts.Managecontacttest</td>
+<td></td>
+<td>2</td>
+<td>testscripts.Managecontacttest@2ad48653</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithInValidCredential()'><b>verifyUserLoginWithInValidCredential</b><br>Test class: testscripts.Logintest<br>Parameters: Ethu, 456</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyLoginwithInvalidUsernameAndValidpassword()'><b>verifyLoginwithInvalidUsernameAndValidpassword</b><br>Test class: testscripts.Logintest</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Subcategorytest.verifyUserIsAbleTocreateSubcategoryWithValidDetails()'><b>verifyUserIsAbleTocreateSubcategoryWithValidDetails</b><br>Test class: testscripts.Subcategorytest</td>
+<td></td>
+<td>3</td>
+<td>testscripts.Subcategorytest@6bb4dd34</td></tr>
+<tr>
+<td title='testscripts.Subcategorytest.verifyUserIsAbleToUpdateTheSubcategoryDetails()'><b>verifyUserIsAbleToUpdateTheSubcategoryDetails</b><br>Test class: testscripts.Subcategorytest</td>
+<td></td>
+<td>3</td>
+<td>testscripts.Subcategorytest@6bb4dd34</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithValidCredential()'><b>verifyUserLoginWithValidCredential</b><br>Test class: testscripts.Logintest</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Subcategorytest.verifyUserIsAbleToDeleteButtonInSubcategoryTable()'><b>verifyUserIsAbleToDeleteButtonInSubcategoryTable</b><br>Test class: testscripts.Subcategorytest</td>
+<td></td>
+<td>1</td>
+<td>testscripts.Subcategorytest@6bb4dd34</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithInValidCredential()'><b>verifyUserLoginWithInValidCredential</b><br>Test class: testscripts.Logintest<br>Parameters: anu, 987</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Adminusertest.verifyUserIsAbleToUpdateTheAdminUser()'><b>verifyUserIsAbleToUpdateTheAdminUser</b><br>Test class: testscripts.Adminusertest</td>
+<td></td>
+<td>2</td>
+<td>testscripts.Adminusertest@2767e23c</td></tr>
+<tr>
+<td title='testscripts.Subcategorytest.verifyUserIsAbleTosearchTheCreatedSubcategoryInSearchbar()'><b>verifyUserIsAbleTosearchTheCreatedSubcategoryInSearchbar</b><br>Test class: testscripts.Subcategorytest</td>
+<td></td>
+<td>2</td>
+<td>testscripts.Subcategorytest@6bb4dd34</td></tr>
+<tr>
+<td title='testscripts.Adminusertest.verifyUserIsAbleTocreateNewAdminUser()'><b>verifyUserIsAbleTocreateNewAdminUser</b><br>Test class: testscripts.Adminusertest</td>
+<td></td>
+<td>2</td>
+<td>testscripts.Adminusertest@2767e23c</td></tr>
+<tr>
+<td title='testscripts.Logintest.verifyUserLoginWithValidUseranameAndInvalidPassword()'><b>verifyUserLoginWithValidUseranameAndInvalidPassword</b><br>Test class: testscripts.Logintest</td>
+<td></td>
+<td>0</td>
+<td>testscripts.Logintest@433defed</td></tr>
+<tr>
+<td title='testscripts.Adminusertest.verifyUserIsAbleToDeleteTheAdminUser()'><b>verifyUserIsAbleToDeleteTheAdminUser</b><br>Test class: testscripts.Adminusertest</td>
+<td></td>
+<td>2</td>
+<td>testscripts.Adminusertest@2767e23c</td></tr>
+</table><p>
+</body>
+</html>
