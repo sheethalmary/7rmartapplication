@@ -8,14 +8,13 @@
   </listeners>
   <test thread-count="5" name="testng(failed)">
     <classes>
-      <class name="testscripts.Subcategorytest">
+      <class name="testscripts.Adminusertest">
         <methods>
-          <include name="verifyUserIsAbleToUpdateTheSubcategoryDetails"/>
-          <include name="verifyUserIsAbleTocreateSubcategoryWithValidDetails"/>
+          <include name="verifyUserIsAbleToUpdateTheAdminUser"/>
           <include name="driverquit"/>
           <include name="initializebrowser"/>
         </methods>
-      </class> <!-- testscripts.Subcategorytest -->
+      </class> <!-- testscripts.Adminusertest -->
     </classes>
   </test> <!-- testng(failed) -->
 </suite> <!-- Failed suite [mytestsuite] -->
